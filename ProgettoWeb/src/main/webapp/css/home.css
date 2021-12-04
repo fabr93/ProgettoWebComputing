@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+h1 {
+	color:red;
+	
+}
+
+/* per commentare */
+
+
+h2 {
+	color:orange;
+}
+
+h5 {
+	
+	
+	border: 5px solid blue;
+	padding: 5 px;
+	color: violet;
+}
+
+.jumbotron{
+	margin-top: 10px ;
+	margin-bottom: 10px;
+	font-family: Verdana, Helvatica;
+	font-size:x-large;
+}
+
+
+.jumbotron h4{
+	font-family: sans-serif;
+	color:orange;
+} 
+
+.martello{
+	padding : 5px;
+	border: 5px solid red;
+	margin: 5px;
+	max-width: 99%;
+}
+
+#riga{
+	padding : 5px;
+	border: 5px solid blue;
+	margin: 5px;
+}
+
+#blabla {
+	border: 2px solid orange;
+	text-align: center;
+}
+
+#alli{
+	
+	border: 2px solid orange;
+	text-align: center;
+	margin: 1px;
+	overflow: hidden;
+	
+	
+}
+
+#bordo{
+	border: 2px solid green;
+	
+}
+
+figcaption{
+	position: relative;
+	top: -50px;
+	left: 20px;
+	overflow:hidden;
+	color:blue;
+}
+

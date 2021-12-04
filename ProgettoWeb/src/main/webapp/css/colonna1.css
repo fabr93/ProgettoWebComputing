@@ -1,0 +1,132 @@
+@charset "ISO-8859-1";
+
+
+.active {
+  background: #407088;
+}
+
+
+.colonna1 ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height:100%;
+  background-color: #ddd;
+    
+}
+
+.colonna1 li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+.colonna1 li a:hover {
+  background: #407088;
+  color: white;
+}
+
+
+.colonna1{
+
+	position: fixed;	
+	top: 0px;
+	left: 0px;
+	background-color: #ddd;
+	
+	width:250px;
+	height: 100%;
+	border-right: solid black 1px;
+}
+
+#logo {
+	color: white;
+	background: black;
+	padding-left: 4px;
+	margin-bottom:0px;
+	
+}
+
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 70%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  
+  background: #ffb5b5;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #ffcbcb; 
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+
+
+
+
+div .example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 75%;
+  background: #f1f1f1;
+}
+
+div .example input[type=submit] {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  
+  background: #ffb5b5;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+div .example button:hover {
+  background: #ffcbcb; 
+}
+
+div .example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+
+
